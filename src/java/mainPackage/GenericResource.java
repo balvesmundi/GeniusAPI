@@ -37,9 +37,7 @@ public class GenericResource {
         for(int i=0; i< arrayLength; i++){
             array.add(random.nextInt(4));
         }
-        //JsonArrayBuilder builder = Json.createArrayBuilder();
-        //JsonArray jsonArray = builder.build();
-        
+
         return array.toString();
     }
     
